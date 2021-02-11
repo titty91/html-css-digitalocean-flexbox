@@ -59,6 +59,11 @@ header{
 
 .navright{
   padding: 20px 0px 0px 0px;
+  float: right;
+}
+
+.navright ul:last-child{
+  margin-right: 0;
 }
 
 .navright button{
@@ -73,4 +78,76 @@ header{
 
 .navrightsmall a{
   float: right;
+}
+
+/* dati jambotron */
+.jumbotron{
+  background-image: url("../img/jumbo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.textjumbo{
+  color: white;
+}
+
+.iscriviti{
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px 0 #2285fd;
+  text-align: center;
+}
+
+.iscriviti h1{
+  font-size: 3rem;
+}
+
+.colore{
+  color:#2285fd;
+  padding-top: 5px;
+}
+
+/* dati per il forum */
+.iscriviti .btn{
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-primary{
+  background-color: #579aff;
+}
+
+.btn-primary:hover{
+  background-color: #1633ff;
+  transition: 0.3s;
+}
+
+.btn-block + .btn-block {
+  margin-top: 15px;
+}
+
+form .btn:last-child{
+  box-shadow: 0 2px 2px 0 lightgrey;
+}
+
+form img{
+  max-height: 20px;
+  float: left;
+}
+
+.btn-default{
+  color: grey;
+}
+
+.privacy{
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.privacy a{
+  text-decoration: underline;
+  color:  #2285fd;
 }
