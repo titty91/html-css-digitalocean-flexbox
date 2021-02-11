@@ -189,3 +189,100 @@ form img{
   font-size: 2rem;
   margin-top: 25px ;
 }
+
+.elenco{
+  list-style: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color:#5c6a88;
+  border-top: 0;
+  border-left: 1;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.elenco li{
+  font-size: 20px;
+  color: #5c6a88;
+  padding: 5px 0px 5px 5px;
+}
+
+/* contenuto celle */
+
+.cella .cl1{
+  padding-bottom: 30px;
+}
+
+.cella .cl2{
+  padding-bottom: 10px;
+}
+
+.cella h4{
+  color: #031c4e;
+  padding: 10px 0px;
+}
+
+.cella p{
+  color: #5c6a88;
+
+}
+
+.trecelle{
+  margin-bottom: 50px;
+}
+
+
+/* galleria foto */
+
+.slideshow img{
+  max-width: 1000px;
+  max-height: 500px;
+}
+
+.slideshow img{
+  width: 60%;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 lightgrey;
+}
+
+
+.slideshow i{
+  font-size: 40px;
+  margin: auto 30px;
+}
+
+.slideshow a:hover{
+  color: #031c4e;
+  transition: 0.3s;
+}
+
+.galleria p{
+  color: #5c6a88;
+  margin: 30px auto;
+}
+
+.pallini{
+  margin: 30px auto;
+}
+
+.pallini a{
+  background-color: #f3f5f9;
+  padding: 1px 11px;
+  border-radius: 100%;
+  border: 1px solid #2285fd;
+  margin-right: 5px;
+}
+
+.pallini a:hover{
+  background-color: #2285fd;
+}
+
+/* elenco città */
+.shade{
+  background-image: linear-gradient(#0047c510, #00219d);
+  text-align: center;
+}
+
+.shadetit{
+  color: white;
+}
