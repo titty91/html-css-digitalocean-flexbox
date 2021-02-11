@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* colori
+azzurro bottoni: #2285fd;
+blu nav e titoli: #031c4e;
+bottone google: #579aff;
+paragrafi: #5c6a88;
+ */
+
+[class*="col-"]{
+  /* max-height: 150px; */
+  /* background-color: lightgreen; */
+  /* border: 1px solid black; */
+}
+
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body>.container-fluid{
+  padding: 0;
+}
+
+header{
+  background-color: white;
+  box-shadow: 0 0 5px 0 #2285fd;
+
+}
+/*  barra di navigazione */
+.navtop img{
+  max-height: 3rem;
+  margin: 20px 0 15px 0;
+}
+
+.navtop ul li{
+  display: inline-block;
+  font-weight: normal;
+  margin-right: 15px;
+}
+
+.navtop a{
+  color: #031c4e;
+}
+
+.navtop a:hover{
+  color: #2285fd;
+}
+
+.navcenter{
+  padding: 25px 0px 0px 0px;
+}
+
+.navright{
+  padding: 20px 0px 0px 0px;
+}
+
+.navright button{
+  background-color: white;
+  color: #2285fd;
+  border: 1px solid #2285fd;
+}
+.navright button:hover{
+  background-color: #2285fd;
+  color: white;
+}
+
+.navrightsmall a{
+  float: right;
+}
