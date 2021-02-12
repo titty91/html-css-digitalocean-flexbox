@@ -275,14 +275,111 @@ form img{
 
 .pallini a:hover{
   background-color: #2285fd;
+  transition: 0.3s;
 }
 
-/* elenco città */
+/* elenco città con tabella*/
 .shade{
-  background-image: linear-gradient(#0047c510, #00219d);
+  background: linear-gradient(to bottom, #2285fd, #031c4e);
   text-align: center;
 }
 
 .shadetit{
   color: white;
+  margin: 40px auto;
+}
+
+.shade table{
+  max-width: 90%;
+  font-size: 10px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.shade table td{
+  color: lightgrey;
+}
+
+.shade table td a{
+  color: #00d5d1;
+}
+
+.shade table tr td:first-child{
+  font-weight: bold;
+}
+
+.shade table tr td:last-child{
+  text-align: right;
+}
+
+
+/* altra galleria immagini */
+.colr{
+  background-color: #1633ff;
+  text-align: center;
+}
+
+
+.slidegall{
+  max-width: 500px;
+  max-height: 800px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 lightgrey;
+}
+
+.slidegall img{
+  max-width: 200px;
+  padding-top: 20px;
+}
+
+.slidegall p:last-child{
+  padding-bottom: 20px;
+}
+
+.shadetit button{
+  color: #1633ff;
+  margin-top: 20px;
+}
+
+
+/* pie di pagina */
+
+footer{
+  background-color: #031c4e;
+  color: white;
+}
+
+footer .row{
+  margin: 50px auto;
+}
+
+footer p{
+  color: #5c6a88;
+  margin-top: 10px;
+}
+
+footer a{
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+footer a:hover{
+  color: #2285fd;
+}
+
+.footerelenco{
+  list-style: none;
+}
+
+.footerelenco li a{
+  font-size: 15px;
+  color: #5c6a88;
+  text-decoration: none;
+}
+
+.footerelenco li:first-child{
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
 }
