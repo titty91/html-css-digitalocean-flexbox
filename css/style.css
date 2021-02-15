@@ -78,8 +78,9 @@ header{
   color: white;
 }
 
-.navrightsmall a{
+.navrightsmall{
   float: right;
+
 }
 
 /* dati jambotron */
@@ -143,6 +144,7 @@ form img{
 
 .btn-default{
   color: grey;
+  transition: 0.3s;
 }
 
 .privacy{
@@ -256,6 +258,7 @@ form img{
   transition: 0.3s;
 }
 
+
 .galleria p{
   color: #5c6a88;
   margin: 30px auto;
@@ -317,14 +320,15 @@ form img{
 }
 
 
-
 .slidegall{
   max-width: 500px;
   max-height: 800px;
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 2px 2px 0 lightgrey;
+  padding: 50px 100px;
 }
+
 
 .slidegall img{
   max-width: 200px;
@@ -358,6 +362,10 @@ footer p{
   margin-top: 10px;
 }
 
+.loghi i{
+  font-size: 20px;
+}
+
 footer a{
   padding-right: 10px;
 }
@@ -366,6 +374,13 @@ footer a:hover{
   color: #2285fd;
 }
 
+.lista{
+  float: right;
+}
+
+.lista.support{
+  float: left;
+}
 
 .lista ul li a{
   text-decoration: none;
@@ -382,7 +397,21 @@ footer a:hover{
   text-decoration: none;
 }
 
+.lista ul li .bnc{
+  color: white;
+}
+
 .lista ul li:first-child{
   line-height: 4;
-  color: #ffff;
+}
+
+#modal{
+  position: fixed;
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 #2285fd;
+  z-index: 999;
 }
