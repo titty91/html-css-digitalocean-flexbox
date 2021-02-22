@@ -10,80 +10,69 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="container-fluid">
-      <!-- barra di navigazione -->
-      <header>
-        <div class="container">
-          <div class="row">
-            <nav class="navtop">
-              <div class="col-lg-4 col-md-12 col-sm-12 col-sx-12">
-                <img src="img/logo.png" alt="logo aziendale">
-                <div class="navrightsmall visible-md-inline-block visible-sm-inline-block visible-xs-inline-block">
-                  <a href="#"><img src="img/bars-solid.png" alt="menu di navigazione"></a>
-                </div>
-              </div>
-              <div class="col-lg-4 hidden-sm hidden-md hidden-xs">
-                <nav class="navcenter">
-                  <ul>
-                    <li>
-                      <a href="#">Products <i class="fas fa-angle-down"></i></a>
-                    </li>
-                    <li>
-                      <a href="#">Costumers</a>
-                    </li>
-                    <li>
-                      <a href="#">Comunity <i class="fas fa-angle-down"></i></a>
-                    </li>
-                    <li>
-                      <a href="#">Pricing</a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-              <div class="col-lg-4 hidden-sm hidden-md hidden-xs">
-                <nav class="navright">
-                  <ul>
-                    <li>
-                      <a href="#">Docs</a>
-                    </li>
-                    <li>
-                      <a href="#">Support <i class="fas fa-angle-down"></i></a>
-                    </li>
-                    <li>
-                      <a href="#">Login</a>
-                    </li>
-                    <li>
-                      <button type="button" class="btn btn-default">Sing Up</button>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            </nav>
-          </div>
+    <header>
+      <nav class="centratura">
+        <div class="logo">
+          <img src="img/logo.png" alt="logo aziendale">
         </div>
-      </header>
+        <div class="navcenter">
+          <ul>
+            <li>
+              <a href="#">Products <i class="fas fa-angle-down"></i></a>
+            </li>
+            <li>
+              <a href="#">Costumers</a>
+            </li>
+            <li>
+              <a href="#">Comunity <i class="fas fa-angle-down"></i></a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
 
-      <!-- corpo del sito -->
-      <main>
-        <div class="jumbotron">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <section class="textjumbo">
-                  <h1>
-                    <strong>
-                      Welcome to the developer cloud
-                    </strong>
-                  </h1>
-                  <p>
-                    We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.
-                  </p>
-                </section>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div class="iscriviti">
-                  <div>
-                    <h1>
+        <div class="navright">
+          <ul>
+            <li>
+              <a href="#">Docs</a>
+            </li>
+            <li>
+              <a href="#">Support <i class="fas fa-angle-down"></i></a>
+            </li>
+            <li>
+              <a href="#">Login</a>
+            </li>
+            <li>
+              <button type="button" class="btn btn-default">Sing Up</button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="ham">
+          <i class="fas fa-bars"></i>
+        </div>
+
+      </nav>
+    </header>
+    <main>
+      <div class="jumbotron">
+        <div class="centratura">
+          <div class="flex">
+            <section class="texjumbo">
+              <h2>
+                <strong>
+                  Welcome to the developer cloud
+                </strong>
+              </h2>
+                <p>
+                  We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.
+                </p>
+            </section>
+            <section class="forumjumbo">
+              <div class="contenitore">
+                <div>
+                    <h2>
                       <strong>
                         Deploy your app in seconds.
                         <br>
@@ -91,7 +80,7 @@
                           Get started now.
                         </span>
                       </strong>
-                    </h1>
+                    </h2>
                     <section>
                       <form>
                         <div class="form-group">
@@ -113,532 +102,16 @@
                       </section>
                     </section>
                   </div>
-                </div>
               </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- elengo sponsor -->
-        <div class="sponsor">
-          <div class="container">
-            <div class="row">
-              <div class="titolo">
-                Innovative businesses trust DigitalOcean
-              </div>
-              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
-                <img src="img/docker.svg" alt="logo docker">
-              </div>
-              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
-                <img src="img/gitlab.svg" alt="logo gitlab">
-              </div>
-              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
-                <img src="img/slack.svg" alt="logo slack">
-              </div>
-              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
-                <img src="img/wework.svg" alt="logo wework">
-              </div>
-              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
-                <img src="img/hashicorp.svg" alt="logo hashicorp">
-              </div>
-              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
-                <img src="img/splunklogo.svg" alt="logo splunk">
-              </div>
-              <div>
-                <a href="#">See business solutions ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- descrizione -->
-          <div class="container">
-            <section class="descrizione">
-              <h1>
-                <strong>
-                  Deploy and scale seamlessly
-                </strong>
-              </h1>
-              <p>
-                Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.
-              </p>
             </section>
-            <div class="trecelle">
-              <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12">
-                  <ul class="elenco">
-                    <li>Deploy</li>
-                    <li>Manage</li>
-                    <li>Secure</li>
-                    <li>Scale</li>
-                    <li>Monitor</li>
-                  </ul>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12">
-                  <div class="cella">
-                    <div class="cl1">
-                      <img src="img/cluster-deploy.svg" alt="icona">
-                      <h4>
-                        <strong>Kubernetes in minutes</strong>
-                      </h4>
-                      <p>
-                        Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.
-                      </p>
-                    </div>
-                    <section>
-                      <img src="img/one-click.svg" alt="icona">
-                      <h4>
-                        <strong>App Platform</strong>
-                      </h4>
-                      <p>
-                        Build, deploy, and scale apps quickly using a simple, fully managed solution. We’ll handle the infrastructure, app runtimes, and dependencies, so that you can push code to production in just a few clicks.
-                      </p>
-                    </section>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12">
-                  <div class="cella">
-                    <div class="cl2">
-                      <img src="img/optimized-compute.svg" alt="icona">
-                      <h4>
-                        <strong>Flexible compute types</strong>
-                      </h4>
-                      <p>
-                        With Basic, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.
-                      </p>
-                    </div>
-                    <section>
-                      <img src="img/global.svg" alt="icona">
-                      <h4>
-                        <strong>Click App Marketplace</strong>
-                      </h4>
-                      <p>
-                        Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP, Docker, and WordPress.
-                      </p>
-                    </section>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
 
-          <!-- galleria con le foto -->
-          <div class="sponsor">
-            <div class="container">
-              <div class="row">
-                <section class="descrizione">
-                  <h1>
-                    <strong>
-                      Designed for developers
-                    </strong>
-                  </h1>
-                  <p>
-                    Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.
-                  </p>
-                </section>
-                <section>
-                  <div class="galleria">
-                    <div class="slideshow">
-                      <a href="#"><i class="fas fa-chevron-left"></i></a>
-                      <img src="img/screenshot-create-droplet-12336b41.jpg" alt="immagine 1">
-                      <a href="#"><i class="fas fa-chevron-right"></i></a>
-                    </div>
-                    <p>
-                      Store assets, media, and more using Spaces object storage with a built-in CDN.
-                    </p>
-                    <div class="pallini">
-                      <a href="#">&#8226;</a>
-                      <a href="#">&#8226;</a>
-                      <a href="#">&#8226;</a>
-                    </div>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div>
-
-          <!-- seconda parte con descrizione e 3celle -->
-          <div class="container">
-            <section class="descrizione">
-              <h1>
-                <strong>
-                  Built for business
-                </strong>
-              </h1>
-            </section>
-            <div class="trecelle">
-              <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12">
-                  <div class="cella">
-                    <div class="cl1">
-                      <img src="img/pred-pricing.svg" alt="icona">
-                      <h4>
-                        <strong>Predictable pricing</strong>
-                      </h4>
-                      <p>
-                        Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.
-                      </p>
-                      <a href="#">Pricing ></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12">
-                  <div class="cella">
-                    <div class="cl1">
-                      <img src="img/world-class.svg" alt="icona">
-                      <h4>
-                        <strong>World-class service</strong>
-                      </h4>
-                      <p>
-                        Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.
-                      </p>
-                      <a href="#">Pricing ></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12">
-                  <div class="cella">
-                    <div class="cl2">
-                      <img src="img/reliable-platform.svg" alt="icona">
-                      <h4>
-                        <strong>Reliable platform</strong>
-                      </h4>
-                      <p>
-                        With Basic, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.
-                      </p>
-                      <a href="#">Pricing ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- elenco città -->
-          <div class="shade">
-            <div class="container">
-              <div class="row">
-                <div class="shadetit">
-                  <h1>
-                    <strong>Service your customers around the world from 13 data centers.</strong>
-                  </h1>
-                </div>
-                <div class="col-lg-6">
-                  <table class="table">
-                    <tr>
-                      <td>AMS2</td>
-                      <td>Amsterdam, Netherlands</td>
-                      <td><a href="#">Test Speed ></a></td
-                    </tr>
-                    <tr>
-                      <td>BLR1</td>
-                      <td>Bangalore, India</td>
-                      <td><a href="#">Test Speed ></a></td
-                    </tr>
-                    <tr>
-                      <td>LON1</td>
-                      <td>London, UK</td>
-                      <td><a href="#">Test Speed ></a></td
-                    </tr>
-                    <tr>
-                      <td>NYC2</td>
-                      <td>New York, NY</td>
-                      <td><a href="#">Test Speed ></a></td
-                    </tr>
-                    <tr>
-                      <td>SFO1</td>
-                      <td>San Francisco, CA</td>
-                      <td><a href="#">Test Speed ></a></td
-                    </tr>
-                    <tr>
-                      <td>SFO3</td>
-                      <td>San Francisco, CA</td>
-                      <td><a href="#">Test Speed ></a></td
-                    </tr>
-                    <tr>
-                      <td>TOR1</td>
-                      <td>Toronto, Canada</td>
-                      <td><a href="#">Test Speed ></a></td
-                    </tr>
-                  </table>
-                </div>
-                <div class="col-lg-6">
-                  <table class="table">
-                    <tr>
-                      <td>AMS2</td>
-                      <td>Amsterdam, Netherlands</td>
-                      <td><a href="#">Test Speed ></a></td
-                    </tr>
-                    <tr>
-                      <td>BLR1</td>
-                      <td>Bangalore, India</td>
-                      <td><a href="#">Test Speed ></a></td
-                    </tr>
-                    <tr>
-                      <td>LON1</td>
-                      <td>London, UK</td>
-                      <td><a href="#">Test Speed ></a></td
-                    </tr>
-                    <tr>
-                      <td>NYC2</td>
-                      <td>New York, NY</td>
-                      <td><a href="#">Test Speed ></a></td
-                    </tr>
-                    <tr>
-                      <td>SFO1</td>
-                      <td>San Francisco, CA</td>
-                      <td><a href="#">Test Speed ></a></td
-                    </tr>
-                    <tr>
-                      <td>SFO3</td>
-                      <td>San Francisco, CA</td>
-                      <td><a href="#">Test Speed ></a></td
-                    </tr>
-                    <tr>
-                      <td>TOR1</td>
-                      <td>Toronto, Canada</td>
-                      <td><a href="#">Test Speed ></a></td
-                    </tr>
-                  </table>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- altra galleria immagini -->
-          <div class="sponsor">
-            <div class="container">
-              <div class="row">
-                <section class="descrizione">
-                  <h1>
-                    <strong>
-                      Development teams love DigitalOcean
-                    </strong>
-                  </h1>
-                  <p>
-                    Easily organize your infrastructure with Projects. And with Teams, everyone can get their own account, with just the privileges they need to do their jobs.
-                  </p>
-                </section>
-                <section>
-                  <div class="galleria">
-                    <div class="slideshow secnd">
-                      <a href="#"><i class="fas fa-chevron-left"></i></a>
-                      <div class="slidegallery">
-                        <div class="slidegall">
-                          <img src="img/rockerbox-logo.webp" alt="logo rockerbox">
-                          <p>
-                            We have been able to make scaling the tecnical <br>infrastructure of our business cost effective and afficient
-                          </p>
-                          <a href="#">Read story</a>
-                          <p>
-                            Rick O'Toole <br>
-                            Co-founder and CTO
-                          </p>
-                        </div>
-
-                      </div>
-                      <a href="#"><i class="fas fa-chevron-right"></i></a>
-                    </div>
-                    <div class="pallini">
-                      <a href="#">&#8226;</a>
-                      <a href="#">&#8226;</a>
-                      <a href="#">&#8226;</a>
-                    </div>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div>
-
-          <div class="colr">
-            <div class="container">
-              <div class="row">
-                <div class="shadetit">
-                  <h1>
-                    <strong>
-                      Get started now
-                    </strong>
-                  </h1>
-                  <button type="button" class="btn btn-default">
-                    Create your account
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-      </main>
-
-
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="cont-modal col-md-1 col-sx-1 visible-md-inline-block visible-sm-inline-block visible-xs-inline-block">
-              <div id="modal">
-                <img src="img/baby-shark-pin-hulya-aksu-deniz-alt-festa-tubar-11.png" alt="icona squalo">
-                <span>2</span>
-              </div>
-          </div>
-          </div>
-          <div class="row">
-            <div class="loghi col-lg-4 col-md-12">
-              <img src="img/logo-small.svg" alt="">
-              <p>
-                © 2021 DigitalOcean, LLC. All rights reserved.
-              </p>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-facebook-square"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-youtube"></i></a>
-              <a href="#"><i class="fab fa-linkedin"></i></a>
-            </div>
-            <div class="col-lg-2 col-md-6">
-              <div class="lista">
-                <ul>
-                  <li>
-                    <a class="bnc" href="#">Company</a>
-                  </li>
-                  <li>
-                    <a href="#">About</a>
-                  </li>
-                  <li>
-                    <a href="#">Leadership</a>
-                  </li>
-                  <li>
-                    <a href="#">Blog</a>
-                  </li>
-                  <li>
-                    <a href="#">Careers</a>
-                  </li>
-                  <li>
-                    <a href="#">Partners</a>
-                  </li>
-                  <li>
-                    <a href="#">Referral Program</a>
-                  </li>
-                  <li>
-                    <a href="#">Press</a>
-                  </li>
-                  <li>
-                    <a href="#">Legal</a>
-                  </li>
-                  <li>
-                    <a href="#">Trust Platform</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-6">
-
-              <div class="lista">
-                <ul>
-                  <li>
-                    <a class="bnc" href="#">Products</a>
-                  </li>
-                  <li>
-                    <a href="#">Products Overview</a>
-                  </li>
-                  <li>
-                    <a href="#">Droplets</a>
-                  </li>
-                  <li>
-                    <a href="#">Kubernetes</a>
-                  </li>
-                  <li>
-                    <a href="#">Managed Databases</a>
-                  </li>
-                  <li>
-                    <a href="#">Spaces</a>
-                  </li>
-                  <li>
-                    <a href="#">Marketplace</a>
-                  </li>
-                  <li>
-                    <a href="#">Load Balancers</a>
-                  </li>
-                  <li>
-                    <a href="#">Block Storage</a>
-                  </li>
-                  <li>
-                    <a href="#">Tools & Integrations</a>
-                  </li>
-                  <li>
-                    <a href="#">API</a>
-                  </li>
-                  <li>
-                    <a href="#">Pricing</a>
-                  </li>
-                  <li>
-                    <a href="#">DocumentationI</a>
-                  </li>
-                  <li>
-                    <a href="#">Release Notes</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-6">
-              <div class="lista">
-                <ul>
-                  <li>
-                    <a class="bnc" href="#">Community</a>
-                  </li>
-                  <li>
-                    <a href="#">Tutorials</a>
-                  </li>
-                  <li>
-                    <a href="#">Meetups</a>
-                  </li>
-                  <li>
-                    <a href="#">Q&A</a>
-                  </li>
-                  <li>
-                    <a href="#">Write for DOnations</a>
-                  </li>
-                  <li>
-                    <a href="#">Droplets for Demos</a>
-                  </li>
-                  <li>
-                    <a href="#">Hatch Startup Program</a>
-                  </li>
-                  <li>
-                    <a href="#">Shop Swag</a>
-                  </li>
-                  <li>
-                    <a href="#">Research Program</a>
-                  </li>
-                  <li>
-                    <a href="#">Currents Research</a>
-                  </li>
-                  <li>
-                    <a href="#">Open Source</a>
-                  </li>
-                  <li>
-                    <a href="#">Code of Conduct</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-6">
-              <div class="lista support">
-                <ul>
-                  <li>
-                    <a class="bnc" href="#">Support</a>
-                  </li>
-                  <li>
-                    <a href="#">Tutorials</a>
-                  </li>
-                  <li>
-                    <a href="#">Meetups</a>
-                  </li>
-                  <li>
-                    <a href="#">Q&A</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
-      </footer>
-    </div>
-  </body>
+      </div>
+    </main>
+    <footer>
+
+    </footer>
+  </body
+  >
 </html>
