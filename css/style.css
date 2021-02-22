@@ -22,7 +22,6 @@ nav{
   display: flex;
   align-items: center;
   justify-content:space-between;
-
 }
 
 nav ul li{
@@ -92,7 +91,11 @@ form img{
 .form-control{
   font-size: 10px;
 }
-.form-group .btn{
+
+.btn-primary{
+  font-size: 10px;
+}
+.btn-default{
   font-size: 10px;
 }
 
@@ -100,6 +103,46 @@ form img{
   font-size: 10px;
   margin-top: 20px;
 }
+
+/* elenco lighi/ sponsor */
+.contenuto1{
+  display: flex;
+  justify-content:space-between;
+  text-align: center;
+  background-color: #f3f5f9;
+}
+.contenuto1 ul li{
+  list-style: none;
+  display: inline-block;
+}
+.contenuto1 p{
+  margin-top: 10px;
+}
+
+/* seconda parte del main */
+.contenuto2{
+  text-align: center;
+  margin: 10px 10px;
+}
+
+.contain{
+  margin: 20px 0px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.cella{
+  max-width: 30%;
+}
+
+.elenco{
+  text-align: left;
+  list-style: none;
+  border-left: 2px solid lightgrey;
+  padding-left: 5px;
+}
+
 
 @media all and (max-width: 991px) {
 
@@ -121,6 +164,8 @@ form img{
 
 }
 
-@media all and (max-width:523px){
-  
+@media all and (max-width: 537px){
+  .cella{
+    max-width: 50%;
+  }
 }
